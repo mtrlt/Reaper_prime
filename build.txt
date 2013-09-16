@@ -1,0 +1,23 @@
+I managed to build the XPM Reaper on Ubuntu 13.04 server:
+
+First! Redownload the miner from the link I gave you. There should be a VERSION file that says it's beta 2.
+
+sudo apt-get install build-essential cmake libgmp-dev libcurl4-openssl-dev dh-autoreconf pkg-config libjansson-dev
+download & install AMD's (or Nvidia's) OpenCL SDK
+
+download bitcoin-libblkmaker from 
+https://dl.dropboxusercontent.com/u/55025350/bitcoin-libblkmaker.zip
+and save it to the directory where the miner sources are.
+then do this in the same dir:
+{
+	unzip bitcoin-libblkmaker.zip
+	cd libblkmaker
+	make clean
+	./autogen.sh
+	make
+	sudo make install
+	cd ..
+}
+
+Then, run cmake-linux.sh
+If you have problems compiling, please post to the bitcointalk thread: https://bitcointalk.org/index.php?topic=273637.0

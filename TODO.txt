@@ -1,0 +1,9 @@
+TODO: # means done.
+#remove TOTAL count
+create the new "threads_per_device" config option to replace "cpu_mining_threads"
+add "show_gpu_timing" config option to show or not show millisecond measurements
+#do a proper squaring algorithm instead of just doing a Mul(a,a);
+make it work with ypool
+add 'shaders' setting
+#add "fermats" count even when using gpu fermats
+make "sievepercentage" a float

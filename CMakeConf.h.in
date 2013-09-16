@@ -1,0 +1,9 @@
+#ifndef CMAKECONF_H
+#define CMAKECONF_H
+
+#define REAPER_VERSION "@REAPER_VERSION@"
+#cmakedefine CPU_MINING_ONLY
+#cmakedefine REAPER_BUILD_64BIT
+#cmakedefine REAPER_BUILD_32BIT
+
+#endif

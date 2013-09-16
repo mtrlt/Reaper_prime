@@ -1,0 +1,5 @@
+This is Primecoin reaper beta 2
+
+Changelog from beta 1 to beta 2:
+Fermat testing on the GPU is a bit faster.
+Linux build should now be easier.
